@@ -549,9 +549,12 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 				font-weight: 700;
 				font-size: 12px;
 			}
-		.post-title.no-title{
+		.post-title .permalink-title{
 			text-transform: lowercase;
 		}
+			.post-title.has-title .permalink-title{
+				display: none;
+			}
 		.post-body{
 			margin-bottom: 1.25rem;
 		}
