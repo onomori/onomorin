@@ -314,6 +314,9 @@ pre, samp {
 	pre p{
 		margin-bottom: 0;
 	}
+	pre code{
+		background-color: transparent;
+	}
 
 var{
 	font-style: italic;
