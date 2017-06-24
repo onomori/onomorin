@@ -186,16 +186,20 @@ blockquote, blockquote p{
 	font-size: 0.875rem;
 }
 	blockquote{
-		padding-left: 0.875rem;
+		position: relative;
+	}
+	blockquote:before,
+	blockquote:after{
+		font-size: 12px;
+		font-style: normal;
+		color: #717a8a;
+		display: block;
 	}
 	blockquote:before{
-		font-style: none;
-		content: '66 ';
-		color: #717a8a;
+		content: '>>';
 	}
 	blockquote:after{
-		content: ' 99';
-		color: #717a8a;
+		content: '<<';
 	}
 	blockquote footer{
 		font-size: 12px;
