@@ -6,7 +6,7 @@ $('p > a').each(function(){
 		$(this).addClass('linked-img');
 	}
 });
-$('img').not('.photoset-container img').each(function(){
+$('.post-caption img').each(function(){
 	$(this).wrapAll('<span class="img-wrap"></span>')
 });
 
