@@ -186,6 +186,7 @@ blockquote, blockquote p{
 	font-size: 0.875rem;
 }
 	blockquote{
+		padding-left: 0.875rem;
 		position: relative;
 	}
 	blockquote:before,
