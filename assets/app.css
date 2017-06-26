@@ -615,26 +615,6 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 				.photoset-cell:hover:after{
 					box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1) inset;
 				}
-			.photoset-row:first-child .photoset-cell:first-child,
-			.photoset-row:first-child .photoset-cell:first-child img,
-			.photoset-row:first-child .photoset-cell:first-child:after{
-				border-radius: 3px 0 0 0;
-			}
-			.photoset-row:first-child .photoset-cell:last-child,
-			.photoset-row:first-child .photoset-cell:last-child img,
-			.photoset-row:first-child .photoset-cell:last-child:after{
-				border-radius: 0 3px 0 0;
-			}
-			.photoset-row:last-child .photoset-cell:last-child,
-			.photoset-row:last-child .photoset-cell:last-child img,
-			.photoset-row:last-child .photoset-cell:last-child:after{
-				border-radius: 0 0 3px 0;
-			}
-			.photoset-row:last-child .photoset-cell:first-child,
-			.photoset-row:last-child .photoset-cell:first-child img,
-			.photoset-row:last-child .photoset-cell:first-child:after{
-				border-radius: 0 0 0 3px;
-			}
 		End Post Styles */
 		.post-tags,
 		.post-notes{
