@@ -53,39 +53,6 @@ img{
 	display: relative;
 	border-radius: 3px;
 }
-	.img-wrap{
-		position: relative;
-		display: inline-block;
-		border-radius: 3px;
-		background-color: #14121d;
-		box-shadow: -1px 1px 4px -2px rgba(0,0,0,1);
-		transition-duration: 0.5s;
-	}
-		.img-wrap:hover,
-		.img-wrap:focus{
-			background-color: #000000;
-			box-shadow: -1px 1px 4px -2px rgba(0,0,0,0.8)
-		}
-		.img-wrap img{
-			border-radius: 3px;
-			mix-blend-mode: lighten;
-			background-blend-mode: lighten;
-		}
-		.img-wrap:after{
-			content: '';
-			position: absolute;
-			display: block;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			border-radius: 3px;
-			box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1) inset;
-			transition-duration: 0.2s;
-		}
-			.img-wrap:hover:after{
-				box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1) inset;
-			}
 b, strong,
 i, em{
 	color: #cedbea;
@@ -332,82 +299,82 @@ var{
 }
 
 label {
-  display: block;
-  color: #a5b5c9;
-  margin: 0;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.25rem;
+	display: block;
+	color: #a5b5c9;
+	margin: 0;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.25rem;
 }
 
 [type="text"], [type="password"], [type="date"], [type="datetime"], [type="datetime-local"], 
 [type="month"], [type="week"], [type="email"], [type="number"], [type="search"], [type="tel"], 
 [type="time"], [type="url"], [type="color"], textarea {
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.25rem;
-  width: 100%;
-  height: 40px;
-  margin: 0 0 1.25rem;
-  padding: 0.625rem 0;
-  border: 0;
-  border-bottom: 1px solid #717a8a;
-  border-radius: 0;
-  background-color: transparent;
-  box-shadow: 0 0 0 transparent;
-  color: #717a8a;
-  transition: box-shadow 0s, border-color 0.2s, color 0.2s, ease-in-out;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.25rem;
+	width: 100%;
+	height: 40px;
+	margin: 0 0 1.25rem;
+	padding: 0.625rem 0;
+	border: 0;
+	border-bottom: 1px solid #717a8a;
+	border-radius: 0;
+	background-color: transparent;
+	box-shadow: 0 0 0 transparent;
+	color: #717a8a;
+	transition: box-shadow 0s, border-color 0.2s, color 0.2s, ease-in-out;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 }
 	[type="text"]:focus, [type="password"]:focus, [type="date"]:focus, [type="datetime"]:focus, 
 	[type="datetime-local"]:focus, [type="month"]:focus, [type="week"]:focus, [type="email"]:focus, 
 	[type="number"]:focus, [type="search"]:focus, [type="tel"]:focus, [type="time"]:focus, 
 	[type="url"]:focus, [type="color"]:focus, textarea:focus {
-	  color: #f13f51;
-	  outline: none;
-	  border: 0;
-	  border-bottom: 1px solid #f13f51;;
-	  background-color: transparent;
-	  box-shadow: 0 0 0 transparent;
-	  transition: box-shadow 0s, border-color 0.2s, color 0.2s, ease-in-out;
+		color: #f13f51;
+		outline: none;
+		border: 0;
+		border-bottom: 1px solid #f13f51;;
+		background-color: transparent;
+		box-shadow: 0 0 0 transparent;
+		transition: box-shadow 0s, border-color 0.2s, color 0.2s, ease-in-out;
 	}
 
 button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 	font-family: Consolas, "Liberation Mono", Courier, monospace;
 	font-size: 12px;
-  font-weight: bold;
-  line-height: 1.25rem;
-  height: 40px;
-  border: 1px solid transparent;
-  background-color: #f13f51;
+	font-weight: bold;
+	line-height: 1.25rem;
+	height: 40px;
+	border: 1px solid transparent;
+	background-color: #f13f51;
 	color: #23212c;
 	padding: 0.625rem 0.875rem;
 	margin: 0 0 1.25rem;
-  border-radius: 2px;
-  cursor: pointer;
-  transition: background 0.2s, border-color 0.2s, color 0.2s, ease-in-out;
+	border-radius: 2px;
+	cursor: pointer;
+	transition: background 0.2s, border-color 0.2s, color 0.2s, ease-in-out;
 }
 	button:hover, .btn:hover {
 		background-color: transparent;
-    color: #f13f51;
-    border: 1px solid #f13f51;
+		color: #f13f51;
+		border: 1px solid #f13f51;
 	}
 	button.secondary, .btn.secondary{
 		background-color: #a5b5c9;
 	}
 		button.secondary:hover, .btn.secondary:hover {
-	    color: #a5b5c9;
-	    border: 1px solid #a5b5c9;
+			color: #a5b5c9;
+			border: 1px solid #a5b5c9;
 		}
 	button:disabled, button.disabled, .btn.disabled, 
 	button:disabled:hover, button.disabled:hover, .btn.disabled:hover {
-	  background-color: #717a8a;
-	  cursor: default;
-	  color: #23212c;
-	  border: 1px solid transparent;
+		background-color: #717a8a;
+		cursor: default;
+		color: #23212c;
+		border: 1px solid transparent;
 	}
 
 /* Blog styles */
@@ -585,6 +552,90 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 				font-style: normal;
 				margin-bottom: 1.25rem;
 			}
+		/* Post Content Styles */
+		.photoset-container{
+			position: relative;
+			box-shadow: -1px 1px 4px -2px rgba(0,0,0,1);
+		}
+			.photoset-cell{
+				padding: 0;
+				margin: 0;
+				background: #14121D;
+				border-radius: 0px;
+				border: 1px solid transparent;
+				overflow: hidden;
+				position: relative;
+				height: 100%;
+				transition-duration: 0.5s;
+			}
+				.photoset-cell:hover, 
+				.photoset-cell:focus{
+					padding: 0;
+					margin: 0;
+					border-radius: 0px;
+					border: 1px solid #14121D;
+					background: #000000;
+				}
+		.img-wrap{
+			position: relative;
+			display: inline-block;
+			border-radius: 3px;
+			background-color: #14121d;
+			box-shadow: -1px 1px 4px -2px rgba(0,0,0,1);
+			transition-duration: 0.5s;
+		}
+			.img-wrap:hover,
+			.img-wrap:focus{
+				background-color: #000000;
+				box-shadow: -1px 1px 4px -2px rgba(0,0,0,0.8)
+			}
+			.img-wrap img,
+			.photoset-cell img{
+				border-radius: 3px;
+				mix-blend-mode: lighten;
+				background-blend-mode: lighten;
+			}
+			.img-wrap:after,
+			.photoset-cell:after{
+				content: '';
+				position: absolute;
+				display: block;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				border-radius: 3px;
+				box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1) inset;
+				transition-duration: 0.5s;
+			}
+			.photoset-cell:after{
+				border-radius: 0;
+			}
+				.img-wrap:hover:after,
+				.photoset-cell:hover:after{
+					box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1) inset;
+				}
+			.photoset-row:first-child .photoset-cell:first-child,
+			.photoset-row:first-child .photoset-cell:first-child img,
+			.photoset-row:first-child .photoset-cell:first-child:after{
+				border-radius: 3px 0 0 0;
+			}
+			.photoset-row:first-child .photoset-cell:last-child,
+			.photoset-row:first-child .photoset-cell:last-child img,
+			.photoset-row:first-child .photoset-cell:last-child:after{
+				border-radius: 0 3px 0 0;
+			}
+			.photoset-row:last-child .photoset-cell:last-child,
+			.photoset-row:last-child .photoset-cell:last-child img,
+			.photoset-row:last-child .photoset-cell:last-child:after{
+				border-radius: 0 0 3px 0;
+			}
+			.photoset-row:last-child .photoset-cell:first-child,
+			.photoset-row:last-child .photoset-cell:first-child img,
+			.photoset-row:last-child .photoset-cell:first-child:after{
+				border-radius: 0 0 0 3px;
+			}
+		/* End Post Styles */
 		.post-tags,
 		.post-notes{
 			text-transform: uppercase;
@@ -714,7 +765,7 @@ footer#main_footer{
 /* Small */
 @media print, screen and (max-width: 40em) {
 	#header {
-    margin-top: 100px;
+		margin-top: 100px;
 	}
 	#main_nav{
 		margin-bottom: 2.5rem;	
@@ -725,8 +776,8 @@ footer#main_footer{
 }
 
 /*
-  ColorBox Core Style:
-  The following CSS is consistent between example themes and should not be altered.
+	ColorBox Core Style:
+	The following CSS is consistent between example themes and should not be altered.
 */
 #colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
 #cboxOverlay{position:fixed; width:100%; height:100%;}
@@ -740,9 +791,9 @@ footer#main_footer{
 .cboxIframe{width:100%; height:100%; display:block; border:0;}
 #colorbox, #cboxContent, #cboxLoadedContent{box-sizing:content-box; -moz-box-sizing:content-box; -webkit-box-sizing:content-box;}
 /* 
-  User Style:
-  Change the following styles to modify the appearance of ColorBox.  They are
-  ordered & tabbed in a way that represents the nesting of the generated HTML.
+	User Style:
+	Change the following styles to modify the appearance of ColorBox.  They are
+	ordered & tabbed in a way that represents the nesting of the generated HTML.
 */
 #cboxOverlay{background-color: #23212c;}
 #colorbox{outline:0;}
