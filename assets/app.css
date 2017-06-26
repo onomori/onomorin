@@ -166,11 +166,9 @@ blockquote, blockquote p{
 		color: #717a8a;
 		display: block;
 	}
-	blockquote:before{
-		content: '66';
-	}
+	blockquote:before,
 	blockquote:after{
-		content: '99';
+		content: '---';
 	}
 	blockquote footer{
 		font-size: 12px;
