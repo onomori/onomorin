@@ -779,7 +779,7 @@ footer#main_footer{
 #colorbox{outline:0;}
 #cboxContent{margin-top:32px; overflow:visible; border: 1px solid rgba(113,122,138,0.4);}
 #cboxError{}
-#cboxLoadedContent{background-image: url('bg2.png');background-color: #23212c; padding:24px;}
+#cboxLoadedContent{background-image: url('bg2.png');background-color: #23212c;}
 #cboxLoadingGraphic{background:url(http://static.tumblr.com/fpofmuw/p1Zorsbfb/ajax-loader.gif) no-repeat center center;}
 #cboxLoadingOverlay{background-color: #23212c;}
 #cboxTitle{position:absolute; top:-22px; left:0; color:#ffffff; text-shadow:none;}
