@@ -15,7 +15,6 @@ var cboxOptions = {
 	width: '80%', 
 	maxWidth: '500px', 
 	opacity: '0.6',
-	rel: true,
 	previous: '<',
 	next: '>',
 	close: 'x',
