@@ -552,7 +552,7 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 				font-style: normal;
 				margin-bottom: 1.25rem;
 			}
-		/* Post Content Styles */
+		/* Post Content Styles
 		.photoset-container{
 			position: relative;
 			box-shadow: -1px 1px 4px -2px rgba(0,0,0,1);
@@ -635,7 +635,7 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
 			.photoset-row:last-child .photoset-cell:first-child:after{
 				border-radius: 0 0 0 3px;
 			}
-		/* End Post Styles */
+		End Post Styles */
 		.post-tags,
 		.post-notes{
 			text-transform: uppercase;
