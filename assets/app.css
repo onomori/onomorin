@@ -398,7 +398,8 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
   }
   .responsive-embed.widescreen,
   .flex-video.widescreen,
-  .tag-widescreen .flex-video{
+  .tag-widescreen .flex-video,
+  .tag-vimeo .flex-video{
     padding-bottom: 56.25%; 
   }
   .responsive-embed.vimeo,
