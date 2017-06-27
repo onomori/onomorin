@@ -400,6 +400,10 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
   .flex-video.widescreen {
     padding-bottom: 56.25%; 
   }
+  .responsive-embed.vimeo,
+  .flex-video.vimeo {
+    padding-top: 0;
+	}
 /* Blog styles */
 
 /* Header */
