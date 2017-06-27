@@ -741,7 +741,7 @@ footer#main_footer{
 	}
 }
 /* Small */
-@media print, screen and (max-width: 40em) {
+@media print, screen and (max-width: 43.75em) {
 	#header {
 		margin-top: 100px;
 	}
