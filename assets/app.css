@@ -397,11 +397,13 @@ button, .btn, html [type="button"], [type="reset"], [type="submit"] {
     height: 100%; 
   }
   .responsive-embed.widescreen,
-  .flex-video.widescreen {
+  .flex-video.widescreen,
+  .tag-widescreen .flex-video{
     padding-bottom: 56.25%; 
   }
   .responsive-embed.vimeo,
-  .flex-video.vimeo {
+  .flex-video.vimeo,
+  .tag-vimeo .flex-video{
     padding-top: 0;
 	}
 /* Blog styles */
