@@ -168,6 +168,7 @@ blockquote, blockquote p{
 	blockquote:before,
 	blockquote:after{
 		content: '---';
+		background-image: url('bor-tb.png');
 	}
 	blockquote footer{
 		font-size: 12px;
